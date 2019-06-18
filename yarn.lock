@@ -1138,6 +1138,11 @@ bluebird@^3.5.3:
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
   integrity sha512-/qKPUQlaW1OyR51WeCPBvRnAlnZFUJkCSG5HzGnuIqhgyJtF+T94lFnn33eiazjRm2LAHVy2guNnaq48X9SJuw==
 
+blueoak-1.0.0@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/blueoak-1.0.0/-/blueoak-1.0.0-1.0.0.tgz#8e34bf6326da6f9952aa08a33f9212cda68e53e7"
+  integrity sha512-U+8e1Qe28OIqx4Dog6GxwLD8pk9LrjnQHOdyBXZ++BmYk+QXBsDEd21L7t0S85UgeToBnkPUgx0TccWNb/JPzA==
+
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
@@ -1422,6 +1427,11 @@ caseless@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
+
+cc0-1.0@^1.0.5:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/cc0-1.0/-/cc0-1.0-1.1.0.tgz#f015782a00e5fd17305c42d1c8bd16ea0ff09551"
+  integrity sha512-+6Hk9u2+58/+hqal7o01VKsYe/kpCphOy6UZ1tHoSGyCi/4wjSkJ9f6d9xEPzvHGqNlV4+VI07uqgNPUqW6KlQ==
 
 chalk@^1.0.0, chalk@^1.1.3:
   version "1.1.3"
@@ -4262,13 +4272,15 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-licensor@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/licensor/-/licensor-4.0.0.tgz#bef064b3b725e7324ab2dddee00051b2e031fb01"
-  integrity sha512-9lmQLXDi5IvnnXUVaSer4sm9sgXQWu1kibrpAO+pVugRIX2SarBtvF3LtP8B2NxXfvkIroIayQyx+BoMBCk0Wg==
+licensor@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/licensor/-/licensor-4.3.0.tgz#cbd0793a73fb136cb7d88159143e3d197708d8e3"
+  integrity sha512-n84mOl9ZLAsZMZV65PzHAna47xW0UXr9pJX7qckSBOSSCrUxJAtR41ewAl72y4xwpHxjUaZT0wWbjeAhP9UwiA==
   dependencies:
     apache-2.0 "^1.0.7"
     apache-2.0-header "^1.0.1"
+    blueoak-1.0.0 "^1.0.0"
+    cc0-1.0 "^1.0.5"
     docopt "^0.6.2"
     glob "^7.1.2"
     gpl-3.0 "^1.0.1"
